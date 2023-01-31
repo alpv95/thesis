@@ -1,6 +1,14 @@
-Thesis presented to the department of Physics at Stanford University, March 2022.
-
 # Relativistic Jets in the Era of X-ray Polarimetry
+
+A DISSERTATION
+SUBMITTED TO THE DEPARTMENT OF PHYSICS
+AND THE COMMITTEE ON GRADUATE STUDIES
+OF STANFORD UNIVERSITY
+IN PARTIAL FULFILLMENT OF THE REQUIREMENTS
+FOR THE DEGREE OF
+DOCTOR OF PHILOSOPHY
+Abel Lawrence Peirson V
+March 2023
 
 ## Abstract
 
