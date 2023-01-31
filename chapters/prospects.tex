@@ -3,7 +3,7 @@
 
 \section{Introduction}
 
-Polarization can be an important tool for probing the physics of the acceleration zone, especially in characterizing the magnetic field structures that control the expected shocks and induce synchrotron radiation. VLBI polarization maps have long been effective at measuring jet fields at pc-scale (e.g., \citealp{hovatta_mojave_2012}) while more recently optical polarization has provided new information on the field orientation and variability in the unresolved core \citep{blinov_robopol_2018}. X-ray polarization, to be measured by the approved  Imaging X-ray Polarimetry Explorer ({\it IXPE}, \citealp{weisskopf_overview_2018}, launch 2021) and Enhanced X-ray Timing and Polarization mission ({\it eXTP}, \citealp{zhang_extp_2017}, launch $\sim$2025), offers new opportunities to probe the jet fields and radiation physics, even closer to the acceleration site. In particular, polarization can help answer whether leptonic or hadronic process dominate in a given band (e.g., \citealp{zhang_polarization_2016}).
+Polarization can be an important tool for probing the physics of the acceleration zone, especially in characterizing the magnetic field structures that control the expected shocks and induce synchrotron radiation. VLBI polarization maps have long been effective at measuring jet fields at pc-scale (e.g., \citealp{hovatta_mojave_2012}) while more recently optical polarization has provided new information on the field orientation and variability in the unresolved core \citep{blinov_robopol:_2018}. X-ray polarization, to be measured by the approved  Imaging X-ray Polarimetry Explorer ({\it IXPE}, \citealp{weisskopf_overview_2018}, launch 2021) and Enhanced X-ray Timing and Polarization mission ({\it eXTP}, \citealp{zhang_extp_2017}, launch $\sim$2025), offers new opportunities to probe the jet fields and radiation physics, even closer to the acceleration site. In particular, polarization can help answer whether leptonic or hadronic process dominate in a given band (e.g., \citealp{zhang_polarization_2016}).
 
 However, the sensitivities of the near-future missions are modest and long exposures will
 be required, so in light of the variability and limited low energy polarization information one
@@ -170,7 +170,7 @@ in a given exposure time.}
 \end{figure}
 
 Our prime target candidates are the sources measured with the RoboPol 
-program\footnote{http://robopol.org/} \citep{pavlidou_robopol_2014,blinov_robopol_2018} and the Steward 
+program\footnote{http://robopol.org/} \citep{pavlidou_robopol_2014,blinov_robopol:_2018} and the Steward 
 observatory\footnote{http://james.as.arizona.edu/$\sim$psmith/Fermi/} \citep{smith_coordinated_2009}. 
 For some of these we have {\it Swift} and/or RXTE monitoring, and so can construct a detailed
 variability model (\S \ref{sec:xray_var}). For the remainder we collect typical fluxes from
@@ -182,7 +182,7 @@ we can make predictions for detectability. We focus on {\it IXPE} as the most im
 sensitivity is estimated using the dedicated online tools\footnote{https://ixpe.msfc.nasa.gov/cgi-aft/w3pimms/w3pimms.pl} \citep{soffitta_ixpe_2017,odell_imaging_2018}. Typical exposures will be $\sim 100\,$ksec, although the longest may approach a Msec. Figure 
 \ref{fig:pred_ixpe} shows the X-ray flux and predicted X-ray polarization degree using the median 
 and 1$\rm \sigma$ confidence intervals from the PDFs for each source. These PDFs are
-estimated following \S \ref{sec:xray_predict}. Note that with our assumed 
+estimated following \S\ref{sec:xray_predict}. Note that with our assumed 
 correlated fluctuations, HSP and LSP will vary diagonally (UR to LL) within these error bands.
 As expected, several HSPs are detectable at 100~ksec while a few (e.g., Mrk 421) might give
 significant measurements in 10~ksec, allowing a detailed variability study. Only few LSP sources
@@ -194,11 +194,11 @@ and highly polarized.
 \subsubsection{Detectability Duty Cycle}
 \label{sec:duty_cycle}
 
-We must consider the substantial flux (\S \ref{sec:xray_var}) and polarization variability (e.g., \citealp{angelakis_robopol_2016,kiehlmann_optical_2017}) when predicting the success of an X-ray polarization search. The uncertainty ranges in Figure \ref{fig:pred_ixpe} already give
+We must consider the substantial flux (\S \ref{sec:xray_var}) and polarization variability (e.g., \citealp{angelakis_robopol:_2016,kiehlmann_optical_2017}) when predicting the success of an X-ray polarization search. The uncertainty ranges in Figure \ref{fig:pred_ixpe} already give
 some idea of these effects. But some sources vary well outside these ranges, especially
 in occasional large $\rm S_X$ flares and less often in polarization increases. Thus we use
 distribution function models to characterize the full variability range. For the X-ray variability we either use the parameters in Table \ref{tab:par_sources} to construct a flux distribution function or use the mean and standard deviation to define a single log-normal model (see \S \ref{sec:xray_var}). For the optical polarization, we use distribution 
-functions from the maximum likelihood modeling results of \cite{angelakis_robopol_2016} for RoboPol sources; for Steward Observatory-monitored sources we use their empirical CDF \citep{smith_coordinated_2009}. As noted above for the ISPs we draw randomly for the CDFs, while for LSPs and HSPs we draw an $\rm S_X$ and then adopt $\rm \Pi_X$ from the same probability level.  We consider only sources with at least three observations in both optical polarization and X-ray 
+functions from the maximum likelihood modeling results of \cite{angelakis_robopol:_2016} for RoboPol sources; for Steward Observatory-monitored sources we use their empirical CDF \citep{smith_coordinated_2009}. As noted above for the ISPs we draw randomly for the CDFs, while for LSPs and HSPs we draw an $\rm S_X$ and then adopt $\rm \Pi_X$ from the same probability level.  We consider only sources with at least three observations in both optical polarization and X-ray 
 flux and estimate the joint detection probability (DP) by computing the $\rm MDP_{99}$ in a given exposure time and comparing with the predicted $\rm \Pi_X$. We consider
 a simulated observation as a detection if $\rm \Pi_X > MDP_{99}$. By repeating this 
 calculation $10^4$ times we estimate the fraction of trials a source was detected. 
